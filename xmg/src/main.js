@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import "./common/js/flexble";
 import "./common/css/reset.css";
-import "./assets/iconfont/iconfont";
+import "./assets/iconfont/iconfont.css";
 import store from "./store";
 Vue.config.productionTip = false
 
