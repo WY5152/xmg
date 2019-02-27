@@ -71,6 +71,7 @@ export default {
   width: 100%;
   height: 100%;
   justify-content: space-around;
+  align-items: center;
 }
 #footer > ul > li,
 #footer > ul > li > a {
@@ -80,16 +81,16 @@ export default {
 #footer > ul > li > a {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 #footer > ul > li > a > i {
   display: block;
-  font-size: 0.35rem;
+  font-size: 0.45rem;
 }
 #footer > ul > li > a > span {
   display: block;
-  font-size: 0.28rem;
+  font-size: 0.25rem;
 }
 #footer > ul > li > .router-link-active {
   color: red;
