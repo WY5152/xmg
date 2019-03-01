@@ -25,7 +25,7 @@ export default {
         {
           icon: "&#xf022c;",
           name: "9.9包邮",
-          path: "/free-shipping",
+          path: "/freeShipping",
          
         },
         {
