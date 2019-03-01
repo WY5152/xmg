@@ -1,40 +1,97 @@
 <template>
   <div id="banner">
+    <div class="handpick">
+      <div>精选</div>
+    </div>
+    
     <div class="swiper-container" ref="swiperWrapper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="(item,index) in imgs">
-          <img :src="item">
+        <div class="swiper-slide" v-for="(item,index) in imgs" :key="index" v-html="item">
+          <!-- <img :src="item"> -->
+
+          <!-- <div v-html="item"></div> -->
         </div>
       </div>
-      <div class="swiper-pagination"></div>
     </div>
+    <div class="arrows iconfont">&#xe60c;</div>
   </div>
 </template>
 
 <script>
 import Swiper from "swiper";
-import "../../node_modules/swiper/dist/css/swiper.min.css";
+import "../../../../node_modules/swiper/dist/css/swiper.min.css";
 export default {
-  props: {
-    imgs: Array
+  // props: {
+  //   imgs: Array
+  // },
+  data(){
+    return {
+      imgs:["精选","女装","精选","女装精选","精选","女装","精选","女装","精选","女装","精选","女装","精选","女装","精选"]
+    }
   },
   mounted() {
     new Swiper(this.$refs.swiperWrapper, {
-      autoplay: true
+      autoplay: false,
+      slidesPerView: 'auto',
+      spaceBetween: 60
     });
   }
 };
 </script>
 
 
-<style lang="">
-.swiper-container {
- margin-top: .1rem;
- width: 7.5rem;
-  height: 1.86rem;
+<style scoped>
+#banner{
+  width: 100%;
+  height: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size:0.3rem;
 }
-.swiper-slide>img{
+#banner>.handpick,#banner>.arrows{
+  width: 1.3rem;
+  height:100%;
+  text-align: center;
+  line-height: 0.8rem;
+}
+#banner>.handpick{
+  position: relative;
+}
+#banner>.handpick>div:before{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 60%;
+  top: 20%;
+  background: #eee;
+  right: 0;
+}
+#banner>.handpick>div:after{
+  content: '';
+  position: absolute;
+  left: 15%;
+  bottom: 0px;
+  height: 4px;
+  width: 70%;
+  background-color: #FC3F78;
+}
+#banner>.arrows{
+  font-size: 0.32rem;
+}
+#banner .swiper-container {
+  width: 100%;
+  height: 100%;
+  padding:0px 0.3rem;
+}
+#banner .swiper-slide{
+  width: auto;
+  height: 100%;
+  line-height: 0.8rem;
+}
+/* .swiper-slide>img{
     width:95%;
     margin:auto;
-}
+} */
 </style>

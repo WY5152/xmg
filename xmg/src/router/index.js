@@ -6,6 +6,8 @@ import Classification from "@/components/classification/classification"
 import Collection from "@/components/collection/collection"
 import FreeShipping from "@/components/free-shipping/free-shipping"
 import My from "@/components/my/my"
+import Search from "@/components/home/components/search"
+import Footprint from "@/components/home/components/footprint"
 
 Vue.use(Router)
 
@@ -13,36 +15,47 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect:"/home"
+      redirect: "/home"
     },
     {
-      path:"/home",
-      component:Home,
-      name:"home",
+      path: "/home",
+      component: Home,
+      name: "home"
     },
     {
-      path:"/classification",
-      component:Classification,
-      name:"classification",
+      path: "/search",
+      component: Search,
+      name: "search",
     },
     {
-      path:"/Collection",
-      component:Collection,
-      name:"collection",
+      path: "/footprint",
+      component: Footprint,
+      name: "footprint",
+    },
+
+    {
+      path: "/classification",
+      component: Classification,
+      name: "classification",
     },
     {
-      path:"/free-shipping",
-      component:FreeShipping,
-      name:"free-shipping",
+      path: "/Collection",
+      component: Collection,
+      name: "collection",
     },
     {
-      path:"/my",
-      component:My,
-      name:"my",
+      path: "/free-shipping",
+      component: FreeShipping,
+      name: "free-shipping",
     },
     {
-      path:"**",
-      component:ErrorCom,
+      path: "/my",
+      component: My,
+      name: "my",
+    },
+    {
+      path: "**",
+      component: ErrorCom,
     }
   ]
 })
