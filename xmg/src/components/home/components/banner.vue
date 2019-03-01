@@ -2,7 +2,7 @@
   <div id="banner">
     <div class="swiper-container" ref="swiperWrapper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="(item,index) in imgs">
+        <div class="swiper-slide" v-for="(item,index) in imgs" :key="index">
           <img :src="item">
         </div>
       </div>
@@ -13,7 +13,7 @@
 
 <script>
 import Swiper from "swiper";
-import "../../node_modules/swiper/dist/css/swiper.min.css";
+import "../../../../node_modules/swiper/dist/css/swiper.min.css";
 export default {
   props: {
     imgs: Array

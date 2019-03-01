@@ -7,11 +7,12 @@ import "./common/js/flexble";
 import "./common/css/reset.css";
 import "./assets/iconfont/iconfont.css";
 import store from "./store";
-
-import Mint from 'mint-ui';
+import "mint-ui/lib/style.css";
+import Mint from "mint-ui";
+import axios from "axios";
 Vue.use(Mint);
-Vue.config.productionTip = false
-
+Vue.config.productionTip = false;
+Vue.prototype.axios = axios;
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

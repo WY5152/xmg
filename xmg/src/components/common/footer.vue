@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <ul>
-      <li v-for="(item,index) in tabBar">
+      <li v-for="(item,index) in tabBar" :key="index">
         <router-link :to="item.path">
           <i class="iconfont" v-html="item.icon"></i>
           <span>{{item.name}}</span>
@@ -25,7 +25,7 @@ export default {
         {
           icon: "&#xf022c;",
           name: "9.9包邮",
-          path: "/free-shipping",
+          path: "/freeShipping",
          
         },
         {

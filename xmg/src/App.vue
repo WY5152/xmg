@@ -2,7 +2,8 @@
   <div id="app">
 
     <router-view/>
-    <Footer-com/>
+    <Footer-com />
+    <!-- <Ch-com/> -->
   </div>
 </template>
 

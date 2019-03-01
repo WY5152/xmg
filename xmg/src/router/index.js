@@ -4,12 +4,14 @@ import Home from '@/components/home/home'
 import ErrorCom from "@/components/error/error"
 import Classification from "@/components/classification/classification"
 import Collection from "@/components/collection/collection"
-import FreeShipping from "@/components/free-shipping/free-shipping"
+import FreeShipping from "@/components/freeShipping/freeShipping"
 import My from "@/components/my/my"
+import Ch from "@/components/freeShipping/components/ch"
 
 Vue.use(Router)
 
-export default new Router({
+
+var vm = new Router({
   routes: [
     {
       path: '/',
@@ -26,14 +28,22 @@ export default new Router({
       name:"classification",
     },
     {
-      path:"/Collection",
+      path:"/collection",
       component:Collection,
       name:"collection",
     },
     {
-      path:"/free-shipping",
+      path:"/freeShipping",
       component:FreeShipping,
-      name:"free-shipping",
+      name:"freeShipping"
+    },
+    {
+      path:"/ch",
+      component:Ch,
+      name:"ch",
+      meta:{
+        flag:false,
+      }
     },
     {
       path:"/my",
@@ -46,3 +56,7 @@ export default new Router({
     }
   ]
 })
+
+
+
+export default vm

@@ -1,0 +1,85 @@
+{
+    "data": [
+        {
+            "img": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN012JJhshlQCCVVch6-2053469401.jpg",
+            "name": "9.9每日精选",
+            "price": "十元封顶"
+        },
+        {
+            "img": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01O8ZM462JJhudTIf5K-2053469401.png",
+            "name": "春装好货",
+            "price": "潮流出街"
+        },
+        {
+            "img": "https://img.alicdn.com/imgextra/i3/2053469401/O1CN01Jx3om12JJhua37D1Q-2053469401.jpg",
+            "name": "茶道",
+            "price": "喝出好气色"
+        },
+        {
+            "img": "https://img.alicdn.com/imgextra/i2/2053469401/O1CN012JJhsbUQLIBxBaC-2053469401.jpg",
+            "name": "29.9专区",
+            "price": "半价抢不停"
+        },
+        {
+            "img": "https://img.alicdn.com/imgextra/i2/2053469401/O1CN01LKpHRY2JJhug3cwlS-2053469401.png",
+            "name": "游戏周边",
+            "price": "吃鸡利器"
+        },
+        {
+            "img": "https://img.alicdn.com/imgextra/i1/2053469401/O1CN01bgDEYH2JJhucYdBsZ-2053469401.jpg",
+            "name": "居家小物",
+            "price": "低至1元"
+        }
+    ],
+    "navs": [
+        "精选",
+        "居家百货",
+        "美食",
+        "服装",
+        "配饰",
+        "美妆",
+        "内衣",
+        "母婴",
+        "箱包",
+        "数码配件",
+        "文娱车品"
+    ],
+    "scrolls": [
+        {
+            "title": "近一小时疯抢",
+            "img": [
+                "https://img.alicdn.com/imgextra/i4/669333412/O1CN01jvlQ1a1b4jrgORcUX_!!669333412.jpg_310x310.jpg",
+                "https://img.alicdn.com/imgextra/i3/1603372607/O1CN01s6yZLK1V831XajYtq_!!1603372607.jpg_310x310.jpg",
+                "https://img.alicdn.com/imgextra/i4/1637899820/O1CN01S4ntkT2MPbrnGD6Dw_!!1637899820.jpg_310x310.jpg",
+                "https://img.alicdn.com/imgextra/i4/69884707/O1CN01iyHUs01kdqlgGbmLE_!!69884707.png_310x310.jpg",
+                "https://img.alicdn.com/imgextra/i1/2847843574/O1CN01TcQCW11cGw2TLT1xN_!!2847843574.jpg_310x310.jpg",
+                "https://img.alicdn.com/imgextra/i3/350915163/O1CN01twtM7I1o0hNkyabnC_!!350915163.jpg_310x310.jpg"
+            ],
+            "sum": [
+                "疯抢 5899 件",
+                "疯抢 2736 件",
+                "疯抢 2648 件",
+                "疯抢 2648 件",
+                "疯抢 2438 件",
+                "疯抢 2276 件"
+            ],
+            "cum": [
+                "拍三件！Missface鱼子酱眼霜",
+                "新券！！【质量逆天】折叠加固晴雨两用伞",
+                "【只要9.9！】万能硅胶保鲜盖6件套",
+                "【严迪】食品级儿童牙膏3支送3支牙刷",
+                "【历史新低一米长】安卓快充闪充数据线",
+                "【旗舰店】欧诗漫  水润沁透隐形面膜10片"
+            ],
+            "price": [
+                "¥38 ",
+                "¥9.9 ",
+                "¥9.9 ",
+                "¥19.9 ",
+                "¥1.1 ",
+                "¥14.9 "
+            ]
+        }
+    ]
+  
+}

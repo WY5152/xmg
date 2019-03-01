@@ -1,19 +1,17 @@
 <template>
     <div>
-        包邮
+          <Header-com/>
     </div>
 </template>
 
 <script>
+import Header from "./header";
 export default {
-    data(){
-        return{
-
-        }
+    components:{
+        "Header-com":Header,
     }
 }
 </script>
-
 
 <style lang="">
     
