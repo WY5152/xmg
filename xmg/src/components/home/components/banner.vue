@@ -3,18 +3,10 @@
     <div class="handpick">
       <div>精选</div>
     </div>
-    
     <div class="swiper-container" ref="swiperWrapper">
       <div class="swiper-wrapper">
-<<<<<<< HEAD
-        <div class="swiper-slide" v-for="(item,index) in imgs" :key="index" v-html="item">
-          <!-- <img :src="item"> -->
-
-          <!-- <div v-html="item"></div> -->
-=======
         <div class="swiper-slide" v-for="(item,index) in imgs" :key="index">
           <img :src="item">
->>>>>>> wu
         </div>
       </div>
     </div>

@@ -7,19 +7,12 @@ import "./common/js/flexble";
 import "./common/css/reset.css";
 import "./assets/iconfont/iconfont.css";
 import store from "./store";
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> wyss
 import Mint from 'mint-ui';
 import "mint-ui/lib/style.css"
-=======
-import "mint-ui/lib/style.css";
-import Mint from "mint-ui";
-import axios from "axios";
->>>>>>> wu
 Vue.use(Mint);
+
+import axios from "axios";
 Vue.config.productionTip = false;
 Vue.prototype.axios = axios;
 /* eslint-disable no-new */
