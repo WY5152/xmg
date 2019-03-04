@@ -10,6 +10,9 @@ import store from "./store";
 import Mint from 'mint-ui';
 import "mint-ui/lib/style.css"
 Vue.use(Mint);
+
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

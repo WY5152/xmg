@@ -43,6 +43,8 @@ export default {
 <style lang="" scoped>
 #home {
   width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 #home > header {
   padding: 0.15rem;
