@@ -24,9 +24,9 @@ export default {
 };
 </script>
 
-<style lang=""  >
+<style lang="" >
 .header{
-  position: fixed;
+   position: fixed;
     top: 0px;
     left: 0;
     width: 100%;
