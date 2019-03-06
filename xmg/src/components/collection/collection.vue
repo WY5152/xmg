@@ -10,7 +10,9 @@
 			</i>
 			<h5>登陆后添加收藏</h5>
 			<p>收藏云端同步，不错过任何优惠哦</p>
+			
 			<button>登录/注册</button>
+		
 		</div>
 	</div>
 
@@ -23,7 +25,7 @@
 	}
 </script>
 
-<style lang="">
+<style lang="" >
 	.header {
 		display: flex;
 		align-items: center;
@@ -77,6 +79,7 @@
 		height: 1rem;
 		width: 4rem;
 		border-radius: 0.6rem;
+		border: 0;
 		color: #fff;
 		font-size: .38rem;
 	}

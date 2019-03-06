@@ -6,7 +6,7 @@
     <div class="swiper-container" ref="swiperWrapper">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="(item,index) in imgs" :key="index">
-          <img :src="item">
+          <div>{{item}}</div>
         </div>
       </div>
     </div>

@@ -101,7 +101,7 @@
 	}
 </script>
 
-<style lang="">
+<style lang="" >
 	.header {
 		background-image: linear-gradient(to left, rgb(250, 77, 190) 0px, rgb(251, 170, 88) 100%);
 		background-position-x: initial;

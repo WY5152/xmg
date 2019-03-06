@@ -16,11 +16,11 @@
 // import Vue from "vue";
 // Vue.component(Popup.name, Popup);
 export default {
-    data(){
-        return{
-            popupVisible:""
-        }
-    }
+    // data(){
+    //     return{
+    //         popupVisible:""
+    //     }
+    // }
 };
 </script>
 

@@ -9,7 +9,7 @@ export default {
     },
     async handleChData({commit},params){
         let data = await ChData(params);
-        console.log(data.data);
+        //console.log(data.data);
         commit("handleChData",data.data);
     },
 }

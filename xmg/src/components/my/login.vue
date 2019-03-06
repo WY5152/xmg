@@ -4,7 +4,7 @@
 		<div class="header_pr  ">
 			<header class="icon_header">
 
-				<a class="iconfont icon-zuojiantou" ui-back></a><i class="iconfont" style="color: #fff;">&#xe603;</i>
+				<a class="iconfont icon-zuojiantou" ui-back></a><i class="iconfont" style="color: #000;">&#xe603;</i>
 				<div>
 					登录
 				</div>
@@ -56,7 +56,7 @@
 <script>
 </script>
 
-<style>
+<style >
 	h1.text-center {
 		margin: 0;
 		height: 2rem;
