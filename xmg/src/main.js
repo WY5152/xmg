@@ -11,6 +11,13 @@ import store from "./store";
 import Mint from 'mint-ui';
 import "mint-ui/lib/style.css"
 Vue.use(Mint);
+<<<<<<< HEAD
+=======
+
+
+
+Vue.config.productionTip = false
+>>>>>>> wyss
 
 import axios from "axios";
 Vue.config.productionTip = false;

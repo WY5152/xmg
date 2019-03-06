@@ -23,6 +23,7 @@ export default {
         background: pink;
         width: 100%;
         height:3.124rem;
+        /* overflow: hidden; */
     }
     #bannerbig img{
         width: 100%;
